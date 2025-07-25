@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/strot-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Strot - Your complete work operating system combining freelance gigs, verified jobs, local tasks, and AI-driven learning into one unified platform." />
+    <meta name="keywords" content="freelance, jobs, gig economy, AI learning, career platform, talent matching, work operating system" />
+    <meta name="author" content="Strot Team" />
+    <title>Strot - Complete Work Operating System</title>
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://strot.com/" />
+    <meta property="og:title" content="Strot - Complete Work Operating System" />
+    <meta property="og:description" content="Your complete work operating system combining freelance gigs, verified jobs, local tasks, and AI-driven learning into one unified platform." />
+    <meta property="og:image" content="/strot-og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://strot.com/" />
+    <meta property="twitter:title" content="Strot - Complete Work Operating System" />
+    <meta property="twitter:description" content="Your complete work operating system combining freelance gigs, verified jobs, local tasks, and AI-driven learning into one unified platform." />
+    <meta property="twitter:image" content="/strot-og-image.png" />
+
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#030213" />
+    <meta name="msapplication-TileColor" content="#030213" />
+    
+    <!-- Prevent FOUC (Flash of Unstyled Content) -->
+    <script>
+      // Initialize theme before app loads to prevent flash (defaults to light)
+      (function() {
+        const savedTheme = localStorage.getItem('strot-theme') || 'light';
+        const root = document.documentElement;
+        
+        if (savedTheme === 'dark') {
+          root.classList.add('dark');
+        } else if (savedTheme === 'light') {
+          root.classList.remove('dark');
+        } else {
+          // System theme
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (prefersDark) {
+            root.classList.add('dark');
+          } else {
+            root.classList.remove('dark');
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>
