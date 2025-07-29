@@ -1,11 +1,11 @@
-# Strot - Complete Work Operating System
+# Strot - Verified ex
 
 A comprehensive work operating system that combines freelance gigs, verified jobs, local tasks, and AI-driven learning into one unified platform.
 
 ## 🚀 Features
 
 ### Core Platform
-- **Multi-Profile Support**: Freelancer, Full-Timer, Local Gig Worker, and Employer profiles
+- **Multi-Profile Support**: Vetted profiles whether Full-timer, freelancer, Local Gig Worker, and Employer
 - **Advanced Job Discovery**: AI-powered job matching and recommendations
 - **Comprehensive Profile Management**: Detailed profiles with skills, experience, and portfolios
 - **Social Networking**: Connect with professionals and build your network
@@ -16,7 +16,7 @@ A comprehensive work operating system that combines freelance gigs, verified job
 - **Freelancers**: Project-based work, portfolio showcase, client management
 - **Full-Time Professionals**: Career opportunities, skill verification, networking
 - **Local Gig Workers**: Location-based services, quick tasks, community connections
-- **Employers**: Talent discovery, team building, company profiles
+- **Employers**: Talent discovery, team building, candidate testing, company profiles
 
 ### Advanced Features
 - **AI-Powered Matching**: Smart job recommendations based on skills and preferences
@@ -168,9 +168,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [Live Demo](https://strot.com)
-- [Documentation](https://docs.strot.com)
-- [API Reference](https://api.strot.com/docs)
+- [Live Demo](https://strot.net)
+- [Documentation](https://docs.strot.net)
+- [API Reference](https://api.strot.net/docs)
 
 ## 💬 Support
 
