@@ -1,4 +1,4 @@
-# Strot - Verified ex
+# Strot - A unified career platform
 
 A comprehensive work operating system that combines freelance gigs, verified jobs, local tasks, and AI-driven learning into one unified platform.
 
